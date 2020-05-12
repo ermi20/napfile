@@ -304,3 +304,9 @@ nav {
         color: var(--clr-primary-7);
     }
 }
+
+.jumbotron .imgback {
+    height: 675px;
+    box-shadow: 0 0 50px #222;
+    border: 2px solid #724514;
+}
