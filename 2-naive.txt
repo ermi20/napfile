@@ -1,3 +1,5 @@
+//normal js with out buttons
+
 const menu = [
   {
     id: 1,
