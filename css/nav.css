@@ -293,10 +293,9 @@ nav {
         background: transparent;
     }
     .social-icons {
-        display: inline-block;
+        display: block;
     }
     .social-icons a {
-        margin: 0 0.5rem;
         color: var(--clr-primary-5);
         transition: var(--transition);
     }
@@ -311,20 +310,11 @@ nav {
     border: 2px solid #724514;
 }
 
-.btnclass .btn {
-    color: black;
-    text-align: center;
-    padding-left: 10px;
-    margin-left: 30px;
-    border: gray;
+.btn a {
+    margin: 10px 10px 30px 10px;
+    padding: 5px;
 }
 
-.btnclass,
 #call {
-    margin-top: 15px;
-    margin-right: 50px;
-}
-
-.btn a:hover {
-    color: lightblue;
+    margin-top: 20px;
 }
