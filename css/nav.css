@@ -305,13 +305,14 @@ nav {
 }
 
 .jumbotron .imgback {
+    padding-top: 10px 10px;
     height: 675px;
     box-shadow: 0 0 50px #222;
     border: 2px solid #724514;
 }
 
 .btn a {
-    margin: 10px 10px 30px 10px;
+    margin: 5px 0px 5px 0px;
     padding: 5px;
 }
 
