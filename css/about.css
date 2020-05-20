@@ -94,6 +94,10 @@ img {
     display: block;
 }
 
+#header1 {
+    color: rgb(168, 151, 52);
+}
+
 h1,
 h2,
 h3,
