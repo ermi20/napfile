@@ -213,8 +213,12 @@ Menu
     margin-bottom: 2rem;
 }
 
+#napuli {
+    color: rgb(204, 192, 127);
+}
+
 .underline {
-    width: 5rem;
+    width: 10rem;
     height: 0.25rem;
     background: var(--clr-gold);
     margin-left: auto;
