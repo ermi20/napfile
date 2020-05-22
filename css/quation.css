@@ -102,6 +102,10 @@ img {
     color: white;
 }
 
+span {
+    color: hsl(205, 63%, 48%);
+}
+
 h1,
 h2,
 h3,
