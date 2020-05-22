@@ -96,7 +96,10 @@ img {
 }
 
 #header1 {
+    padding-top: 60px;
     font-family: var(--ff-primary);
+    text-align: center;
+    color: white;
 }
 
 h1,
