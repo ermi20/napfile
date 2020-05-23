@@ -65,8 +65,8 @@ const menu = [{
     },
     {
         id: 9,
-        title: "Apertas &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;",
-        category: "COCKTAILS&DRINKS",
+        title: "Apertas  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+        category: "DRINKS",
         price: 7.50,
         img: "./images/drink1.jpg",
         desc: ` (κιτρο, Aperol, πορτοκαλι)`,
@@ -74,7 +74,7 @@ const menu = [{
     {
         id: 10,
         title: "Cubotto  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
-        category: "COCKTAILS&DRINKS",
+        category: "DRINKS",
         price: 7.50,
         img: "./images/drink1.jpg",
         desc: `(το ιταλικο cuba libre)`,
@@ -98,7 +98,7 @@ const menu = [{
     {
         id: 13,
         title: "Aperol  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
-        category: "COCKTAILS&DRINKS",
+        category: "DRINKS",
         price: 7.50,
         img: "./images/drink1.jpg",
         desc: `Spritz`,
@@ -106,7 +106,7 @@ const menu = [{
     {
         id: 14,
         title: "Negroni   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
-        category: "COCKTAILS&DRINKS",
+        category: "DRINKS",
         price: 7.50,
         img: "./images/drink1.jpg",
         desc: ``,
@@ -114,7 +114,7 @@ const menu = [{
     {
         id: 15,
         title: "Wine by glass &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
-        category: "COCKTAILS&DRINKS",
+        category: "DRINKS",
         price: 3.00,
         img: "./images/drink1.jpg",
         desc: `(μοσχοφιλερο, μαλαγουζια, cabernet/merlot)`,
@@ -122,14 +122,14 @@ const menu = [{
     {
         id: 16,
         title: "Birra italiana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
-        category: "COCKTAILS&DRINKS",
+        category: "DRINKS",
         price: 3.50,
         img: "./images/drink1.jpg",
         desc: `(peroni, moretti 330ml)`,
     }, {
         id: 17,
         title: "Birra Moretti Rossa &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
-        category: "COCKTAILS&DRINKS",
+        category: "DRINKS",
         price: 4.50,
         img: "./images/drink1.jpg",
         desc: `330ml`,
@@ -137,14 +137,14 @@ const menu = [{
     {
         id: 18,
         title: "Birra Moretti Toscana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
-        category: "COCKTAILS&DRINKS",
+        category: "DRINKS",
         price: 6.00,
         img: "./images/drink1.jpg",
         desc: `330ml`,
     }, {
         id: 19,
         title: "Peroni Gran Riserva &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
-        category: "COCKTAILS&DRINKS",
+        category: "DRINKS",
         price: 6.00,
         img: "./images/drink1.jpg",
         desc: `500ml`,
@@ -152,7 +152,7 @@ const menu = [{
     {
         id: 20,
         title: "Peroni Gran Riserva Rossa &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
-        category: "COCKTAILS&DRINKS",
+        category: "DRINKS",
         price: 6.00,
         img: "./images/drink1.jpg",
         desc: `500ml`,
@@ -161,14 +161,14 @@ const menu = [{
     {
         id: 21,
         title: "Soft drink Coca cola/ Fanta/Sprite &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
-        category: "COCKTAILS&DRINKS",
+        category: "DRINKS",
         price: 2.80,
         img: "./images/drink1.jpg",
         desc: `soft drinks`,
     }, {
         id: 22,
         title: " Εμφιαλωμενο νερο 1l  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
-        category: "COCKTAILS&DRINKS",
+        category: `DRINKS`,
         price: 2.00,
         img: "./images/drink1.jpg",
         desc: `1l`,
@@ -176,7 +176,7 @@ const menu = [{
     {
         id: 23,
         title: "Ανθρακουχο εμφιαλωμενο νερο Galvanina &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
-        category: "COCKTAILS&DRINKS",
+        category: "DRINKS",
         price: 3.50,
         img: "./images/drink1.jpg",
         desc: `750ml`,
@@ -189,11 +189,10 @@ const menu = [{
         img: "./images/drink1.jpg",
         desc: `(αχινομακαροναδα)`,
     },
-
     {
         id: 25,
         title: "Καλαθακι χωριατικο προζυμενιο ψωμι &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
-        category: "ANTIPASTI&INSSALATE",
+        category: "ANTIPASTI",
         price: 2.00,
         img: "./images/drink1.jpg",
         desc: ``,
@@ -201,7 +200,7 @@ const menu = [{
     {
         id: 26,
         title: "Burrata Fritta &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
-        category: "ANTIPASTI&INSSALATE",
+        category: "ANTIPASTI",
         price: 14.00,
         img: "./images/drink1.jpg",
         desc: `(μπουρατα μπουφαλα, μορταδελα, ζυμη πιτσας, σαλτσα ντοματας, πεκορινο, βασιλικος)`,
@@ -209,7 +208,7 @@ const menu = [{
     {
         id: 27,
         title: "Mozzarella di bufala &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
-        category: "ANTIPASTI&INSSALATE",
+        category: "ANTIPASTI",
         price: 16.00,
         img: "./images/drink1.jpg",
         desc: `ripiena di parmigiana (μοτσαρελα μπουφαλα 500γρ γεμιστη με ψητες μελιτζανες,
@@ -219,14 +218,14 @@ const menu = [{
     {
         id: 28,
         title: "Panzanella &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
-        category: "ANTIPASTI&INSSALATE",
+        category: "ANTIPASTI",
         price: 12.00,
         img: "./images/drink1.jpg",
         desc: `(ντοματινια, burrata bufala, κρεμμυδι, χειροποιητα κρουτον, βασιλικος)`,
     }, {
         id: 29,
         title: " Insalata di vitello tonnato &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
-        category: "ANTIPASTI&INSSALATE",
+        category: "ANTIPASTI",
         price: 13.00,
         img: "./images/drink1.jpg",
         desc: `(baby πρασινη σαλατα, ψητο μοσχαρακι γαλακτος, sauce τονου)`,
@@ -234,11 +233,13 @@ const menu = [{
     {
         id: 30,
         title: "Insalata di polpo &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
-        category: "ANTIPASTI&INSSALATE",
+        category: "ANTIPASTI",
         price: 14.00,
         img: "./images/drink1.jpg",
         desc: `(χταποδι*, πατατες, σελερυ, μυρωδικα)`,
     },
+
+
 
 ];
 // get parent element
