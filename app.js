@@ -189,6 +189,57 @@ const menu = [{
         img: "./images/drink1.jpg",
         desc: `(αχινομακαροναδα)`,
     },
+
+    {
+        id: 25,
+        title: "Καλαθακι χωριατικο προζυμενιο ψωμι &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+        category: "ANTIPASTI&INSSALATE",
+        price: 2.00,
+        img: "./images/drink1.jpg",
+        desc: ``,
+    },
+    {
+        id: 26,
+        title: "Burrata Fritta &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+        category: "ANTIPASTI&INSSALATE",
+        price: 14.00,
+        img: "./images/drink1.jpg",
+        desc: `(μπουρατα μπουφαλα, μορταδελα, ζυμη πιτσας, σαλτσα ντοματας, πεκορινο, βασιλικος)`,
+    },
+    {
+        id: 27,
+        title: "Mozzarella di bufala &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+        category: "ANTIPASTI&INSSALATE",
+        price: 16.00,
+        img: "./images/drink1.jpg",
+        desc: `ripiena di parmigiana (μοτσαρελα μπουφαλα 500γρ γεμιστη με ψητες μελιτζανες,
+σαλτσα ντοματας, παρμεζανα)`,
+    },
+
+    {
+        id: 28,
+        title: "Panzanella &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+        category: "ANTIPASTI&INSSALATE",
+        price: 12.00,
+        img: "./images/drink1.jpg",
+        desc: `(ντοματινια, burrata bufala, κρεμμυδι, χειροποιητα κρουτον, βασιλικος)`,
+    }, {
+        id: 29,
+        title: " Insalata di vitello tonnato &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+        category: "ANTIPASTI&INSSALATE",
+        price: 13.00,
+        img: "./images/drink1.jpg",
+        desc: `(baby πρασινη σαλατα, ψητο μοσχαρακι γαλακτος, sauce τονου)`,
+    },
+    {
+        id: 30,
+        title: "Insalata di polpo &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+        category: "ANTIPASTI&INSSALATE",
+        price: 14.00,
+        img: "./images/drink1.jpg",
+        desc: `(χταποδι*, πατατες, σελερυ, μυρωδικα)`,
+    },
+
 ];
 // get parent element
 const sectionCenter = document.querySelector(".section-center");
@@ -208,7 +259,7 @@ function diplayMenuItems(menuItems) {
           <div class="item-info">
             <header>
               <h4>${item.title}</h4>
-              <h4 class="price">$${item.price}</h4>
+              <h4 class="price">€${item.price}</h4>
             </header>
             <p class="item-text">
               ${item.desc}
