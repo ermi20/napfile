@@ -1,6 +1,6 @@
 const menu = [{
         id: 1,
-        title: "Carbonara &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+        title: "Carbonara",
         category: "PASTA",
         price: 11.00,
         img: "./images/food4.jpg",
@@ -17,7 +17,7 @@ const menu = [{
     },
     {
         id: 3,
-        title: "Cacio e pepe &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+        title: "Cacio e pepe &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;",
         category: "PASTA",
         price: 10.00,
         img: "./images/sweet1.jpg",
@@ -185,7 +185,7 @@ const menu = [{
         id: 24,
         title: "Spaghetti ai ricci &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
         category: "PASTA",
-        price: 3.50,
+        price: 18.00,
         img: "./images/drink1.jpg",
         desc: `(αχινομακαροναδα)`,
     },
