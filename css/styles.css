@@ -351,6 +351,13 @@ Menu
         margin-bottom: 0;
         padding-top: 0rem;
     }
+    .header1 {
+        color: rgb(204, 192, 127);
+        text-decoration: underline;
+    }
+    .footer {
+        color: rgb(204, 192, 127);
+    }
 }
 
 @media screen and (min-width: 768px) {
