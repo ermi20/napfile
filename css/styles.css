@@ -211,6 +211,7 @@ Menu
 */
 
 .menu {
+    width: 100%;
     padding: 4rem 0;
 }
 
@@ -320,7 +321,7 @@ span {
     }
     .menu-item {
         grid-template-columns: 225px 1fr 1fr;
-        gap: 0 4.25rem;
+        gap: 0 1.25rem;
         max-width: 40rem;
     }
     .photo {
