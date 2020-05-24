@@ -231,6 +231,12 @@ Menu
     margin-right: auto;
 }
 
+span {
+    text-decoration: underline;
+    font-weight: bolder;
+    color: rgb(204, 192, 127);
+}
+
 .btn-container {
     margin-bottom: 4rem;
     display: flex;
