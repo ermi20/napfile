@@ -234,9 +234,13 @@ Menu
 
 #happy {
     padding-top: 1rem;
-    text-decoration: underline;
     font-weight: bolder;
+    color: #222;
+}
+
+.service {
     color: rgb(204, 192, 127);
+    text-decoration: underline;
 }
 
 .btn-container {
@@ -324,10 +328,6 @@ Menu
         grid-template-columns: 225px 1fr 1fr;
         gap: 0 0.25rem;
         max-width: 40rem;
-    }
-    .price {
-        margin-left: 10rem;
-        color: var(--clr-gold);
     }
     .photo {
         height: 175px;
