@@ -220,6 +220,11 @@ Menu
     margin-bottom: 2rem;
 }
 
+.header1 {
+    color: rgb(204, 192, 127);
+    text-decoration: underline;
+}
+
 #napuli {
     color: rgb(204, 192, 127);
 }
@@ -308,6 +313,11 @@ Menu
 .item-text {
     margin-bottom: 0;
     padding-top: 1rem;
+}
+
+.footer {
+    color: rgb(204, 192, 127);
+    text-align: center;
 }
 
 @media screen and (max-width: 767px) {
