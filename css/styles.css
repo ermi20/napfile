@@ -326,6 +326,12 @@ Menu
 }
 
 @media screen and (max-width: 767px) {
+    body {
+        background: #2D252D;
+    }
+    h4 {
+        color: #5DA3EA;
+    }
     #backgroundimg {
         width: 100%;
         height: 100%;
