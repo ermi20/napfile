@@ -45,7 +45,7 @@ Variables
     --clr-green-light: hsl(125, 71%, 66%);
     --clr-gold: #c59d5f;
     --clr-black: #222;
-    --ff-primary: "Roboto", sans-serif;
+    --ff-primary: 'Tenali Ramakrishna', sans-serif;
     --ff-secondary: "Open Sans", sans-serif;
     --transition: all 0.3s linear;
     --spacing: 0.25rem;
@@ -75,7 +75,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: var(--ff-secondary);
-    background: var(--clr-grey-10);
+    background: #2D252D;
     color: var(--clr-grey-1);
     line-height: 1.5;
     font-size: 0.875rem;
@@ -132,6 +132,7 @@ h3 {
 
 h4 {
     font-size: 0.875rem;
+    color: #5DA3EA;
 }
 
 p {
@@ -227,6 +228,10 @@ Menu
 
 #napuli {
     color: rgb(204, 192, 127);
+}
+
+#black {
+    color: #222;
 }
 
 .underline {
